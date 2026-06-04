@@ -186,7 +186,7 @@ Terminal Operational Output Example:
 ## 📝 Reports & Output
 
 The tool automatically organizes and saves scan results into dedicated formats inside the `reports/` directory:
-```html
+
 <table>
   <thead>
     <tr>
@@ -213,6 +213,7 @@ The tool automatically organizes and saves scan results into dedicated formats i
 
 When exporting to JSON, the data structure is strictly formatted as follows, making it easy to pipe into other penetration testing frameworks or custom scripts:
 
+```html
 ```json
 {
   "hash_value": "5f4dcc3b5aa765d61d8327deb882cf99",
