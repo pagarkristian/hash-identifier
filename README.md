@@ -222,7 +222,7 @@ Confidence : Medium
 }
 ```
 
-## 🪵 Logging
+##  Logging
 
 The application automatically saves your scan history so you can check your past work anytime. Everything is recorded in this file:
 
@@ -241,7 +241,7 @@ Inside the log file, the data will look like this:
 [2026-06-04 21:16:02] HASH=aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d TYPE=SHA-1
 ```
 
-## 📊 Current Version
+##  Current Version
 
 Here is the current status of the project and the features that are already working:
 
@@ -254,7 +254,7 @@ Here is the current status of the project and the features that are already work
 > 💡 **Note:** All features listed above are fully tested and ready to use. More updates and new features will be added in future versions!
 
 
-## 🛣️ Project Roadmap
+##  Project Roadmap
 
 This is the plan for future updates and new features that will be added to the tool:
 
