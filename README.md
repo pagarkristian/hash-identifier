@@ -182,3 +182,42 @@ Terminal Operational Output Example:
 [2] SHA256 (64 chars) -> Detected successfully
 [+] Scan compilation finalized. Reporting channels written to the 'reports/' directory.
 ```
+
+## 📝 Reports & Output
+
+The tool automatically organizes and saves scan results into dedicated formats inside the `reports/` directory:
+```html
+<table>
+  <thead>
+    <tr>
+      <th width="30%">Report Type</th>
+      <th width="40%">Default Output Path</th>
+      <th width="30%">Primary Use Case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>📄 <b>TXT Report</b></td>
+      <td><code>reports/report.txt</code></td>
+      <td>Human-readable summary for quick manual reviews.</td>
+    </tr>
+    <tr>
+      <td>📊 <b>JSON Report</b></td>
+      <td><code>reports/report.json</code></td>
+      <td>Structured data for automation, logging, or API parsing.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 💡 Example JSON Output
+
+When exporting to JSON, the data structure is strictly formatted as follows, making it easy to pipe into other penetration testing frameworks or custom scripts:
+
+```json
+{
+  "hash_value": "5f4dcc3b5aa765d61d8327deb882cf99",
+  "hash_type": "MD5",
+  "description": "Message Digest Algorithm 5",
+  "confidence": "Medium"
+}
+```
