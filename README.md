@@ -272,18 +272,14 @@ This is the plan for future updates and new features that will be added to the t
 
 ## 📸 Screenshots
 
-*Screenshots and previews of the tool will be added in future releases here:*
+Here are the visual previews of the tool in action:
 
-| Preview Type | Placeholder Path | Status |
-| :--- | :--- | :---: |
-| 🖥️ Main Menu Interface | `<img width="871" height="356" alt="Screenshot 2026-06-05 004549" src="https://github.com/user-attachments/assets/66251afa-6cd9-4ec1-98eb-457c29ef5666" />
-` | ⏳ Coming Soon |
-| 🔍 Batch Scanning Mode | `<img width="562" height="271" alt="Screenshot 2026-06-05 004616" src="https://github.com/user-attachments/assets/989f92f2-408a-403f-b6e5-5893a24fde0a" , <img width="576" height="251" alt="Screenshot 2026-06-05 004639" src="https://github.com/user-attachments/assets/23726e38-1661-4816-9998-f4692822143d" />
- />
-` | ⏳ Coming Soon |
-| 📄 Report Generation | `<img width="826" height="514" alt="Screenshot 2026-06-05 004914" src="https://github.com/user-attachments/assets/73f7617a-55fb-450b-856e-e2276f8880db" />
-` | ⏳ Coming Soon |
+| Preview Type | Screenshot | Status |
+| :--- | :---: | :---: |
+| 🖥️ **Main Menu Interface** | <img src="https://github.com/user-attachments/assets/66251afa-6cd9-4ec1-98eb-457c29ef5666" width="400" alt="Main Menu"> | ✅ Available |
+| 🔍 **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/989f92f2-408a-403f-b6e5-5893a24fde0a" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/23726e38-1661-4816-9998-f4692822143d" width="300" alt="Batch Scan 2"> | ✅ Available |
 
+---
 ---
 
 ## 📄 License
