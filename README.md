@@ -88,7 +88,7 @@ git clone [https://github.com/pagarkristian/hash-identifier.git](https://github.
 cd hash-identifier
 ```
 
-# 3. Launch the tool
 ```bash
+# 3. Launch the tool
 python3 hash_identifier.py
 ```
