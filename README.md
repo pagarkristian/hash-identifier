@@ -105,13 +105,13 @@ Provide a single arbitrary hash string to the CLI evaluation parameter block:
 
 
 ```Plaintext
-Enter Hash: [1;32m5f4dcc3b5aa765d61d8327deb882cf99[0m
+Enter Hash: 5f4dcc3b5aa765d61d8327deb882cf99
 
-[1;34m[ Result ][0m
+[ Result ]
 --------------------------------------------------
-[1mHash Type   :[0m MD5
-[1mDescription :[0m Message Digest Algorithm 5
-[1mConfidence  :[0m Medium (Collisions Documented)
+Hash Type   : MD5
+Description : Message Digest Algorithm 5
+Confidence  : Medium (Collisions Documented)
 --------------------------------------------------
 ```
 
@@ -122,7 +122,7 @@ Populate your collection of multi-signature lists into examples/hashes.txt (one 
 Terminal Operational Output Example:
 
 ```Plaintext
-[1;36m[1][0m MD5 (32 chars) -> [1;32mDetected successfully[0m
-[1;36m[2][0m SHA256 (64 chars) -> [1;32mDetected successfully[0m
-[1;34m[+][0m Scan compilation finalized. Reporting channels written to the [1m'reports/'[0m directory.
+[1] MD5 (32 chars) -> Detected successfully
+[2] SHA256 (64 chars) -> Detected successfully
+[+] Scan compilation finalized. Reporting channels written to the 'reports/' directory.
 ```
