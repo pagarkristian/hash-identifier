@@ -1,8 +1,10 @@
 <h1 align="center">🛡️ Hash Identifier</h1>
 
-![Python Version](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Category](https://img.shields.io/badge/Field-Cybersecurity-red?style=for-the-badge)
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/badge/Field-Cybersecurity-red?style=for-the-badge" alt="Category">
+</div>
 
 **Hash Identifier** is a Python-based Command Line Interface (CLI) tool designed to identify common cryptographic hash algorithms using pattern matching and length validation.
 
