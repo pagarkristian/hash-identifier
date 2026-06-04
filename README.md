@@ -70,7 +70,7 @@ This project was developed as a cybersecurity learning project to help students,
     </tr>
     <tr>
       <td>Activity Logging</td>
-      <td>Keeps full track of all execution steps and scan history.</td>
+      <td>Records scan history and identified hash types..</td>
     </tr>
     <tr>
       <td rowspan="2" align="center">💻 <br><b>User Interface</b></td>
