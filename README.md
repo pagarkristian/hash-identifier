@@ -122,16 +122,20 @@ hash-identifier/
 
 ---
 
-## 📊 Supported Algorithms
+## 🔍 Supported Algorithms
 
-| Cryptographic Hash | Digest Length | Character Class | Confidence Unit |
+The tool uses precise cryptographic patterns to identify hashes based on their structural properties:
+
+| Algorithm | Length (Chars) | Character Set | Format Example |
 | :--- | :---: | :---: | :--- |
-| **MD5** | `32 Chars` | Hexadecimal (`a-f, 0-9`) | ⚠️ Medium *(High collision potential)* |
-| **SHA-1** | `40 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
-| **SHA-224** | `56 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
-| **SHA-256** | `64 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
-| **SHA-384** | `96 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
-| **SHA-512** | `128 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
+| `MD5` | **32** | Hexadecimal | `5f4dcc3b5aa765d61d8327deb882cf99` |
+| `SHA-1` | **40** | Hexadecimal | `aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d` |
+| `SHA-224` | **56** | Hexadecimal | `f2a52654a9b5fcf0cfdf6661a9fc553e1f13b6cb5561a293` |
+| `SHA-256` | **64** | Hexadecimal | `2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824` |
+| `SHA-384` | **96** | Hexadecimal | `59a17030e41e2f3d67bc8d48ef36b539cfdf62bbf6b553c5188ef7733f545` |
+| `SHA-512` | **128** | Hexadecimal | `07e547d9586f6a73f73fbac0435ed76951218fb7d0c8d788a309d785436bbb64` |
+
+---12** | `128 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
 
 ---
 
