@@ -290,12 +290,7 @@ This project is licensed under the **MIT License**. This means you are free to u
 
 ## 👨‍💻 Author
 
-<table border="0" align="center" width="100%">
-  <tr>
-    <td align="center">
-      <h3>Pagar Kristian Panjaitan</h3>
-      <p>🚀 <b>Cybersecurity Student • Python Learner • Open Source Enthusiast</b></p>
-      <p>Focused on learning network security, cryptography, and building helpful CLI tools with Python.</p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <sub>Maintained by <b>pagarkristian</b>  helpful CLI tools with Python.</sub>
+</div>
+
