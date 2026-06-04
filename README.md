@@ -1,171 +1,63 @@
-# Hash Identifier
+# 🛡️ Hash Identifier
 
-Cybersecurity learning project for identifying hash algorithms using Python.
+![Python Version](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Category](https://img.shields.io/badge/Field-Cybersecurity-red?style=for-the-badge)
 
-## Features
+**Hash Identifier** is a lightweight, modular, and high-performance Command Line Interface (CLI) utility built in Python. It evaluates, matches, and classifies cryptographic signatures or hashes based on strict character digests, exact lengths, and structural pattern boundaries. 
 
-* Detect MD5
-* Detect SHA1
-* Detect SHA224
-* Detect SHA256
-* Detect SHA384
-* Detect SHA512
-* Generate TXT reports
-* Generate JSON reports
-* Store scan logs
-* Display scan statistics
-* Support batch scanning from file
+This project serves as an essential initial triage instrument for digital forensics examiners, incident responders, and security analysts looking to identify unknown hashes during malware analysis or data auditing.
 
-## Project Structure
+---
+
+## ✨ Key Features
+
+* 🔍 **Multi-Algorithm Signatures**: High-precision recognition for MD5, SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512.
+* 📂 **Automated Batch Processing**: Efficiently ingests, cleans, and processes bulk hash lists from a single flat text (`.txt`) file.
+* 🎨 **Polished UX/UI Design**: Features an interactive terminal experience utilizing ANSI color escape sequences and an aligned telemetry header.
+* 📊 **Telemetry & Runtime Statistics**: Aggregates comprehensive success rates, breakdown percentages, and target metrics instantly post-scan.
+* 📝 **Dual-Engine Reporting Module**: Automatically isolates and exports runtime outputs into human-readable raw text summaries and machine-parsable JSON structures.
+* 🪵 **Immutable Security Auditing**: Tracks all logical transitions and application lifecycles inside dedicated background rotation logs for historical compliance.
+
+---
+
+## 📂 Project Structure
 
 ```text
 hash-identifier/
 │
 ├── examples/
-│   └── hashes.txt
+│   └── hashes.txt             # Target input sample containing bulk hash signatures
 │
 ├── logs/
-│   └── hash_identifier.log
+│   └── hash_identifier.log    # Persistent runtime logs for application auditing
 │
 ├── reports/
-│   ├── report.txt
-│   └── report.json
-│
-├── screenshots/
+│   ├── report.json            # Machine-readable scan output structured in JSON
+│   └── report.txt             # Well-formatted standalone text report
 │
 ├── src/
-│   ├── banner.py
-│   ├── batch_scan.py
-│   ├── detector.py
-│   ├── logger.py
-│   ├── main.py
-│   ├── patterns.py
-│   ├── report.py
-│   └── stats.py
+│   ├── __init__.py
+│   ├── banner.py              # Manages cross-platform screen clearing and CLI aesthetics
+│   ├── batch_scan.py          # Core workflow handling file streaming and bulk validation
+│   ├── detector.py            # Primary regex engine for signature validation
+│   ├── logger.py              # Logging engine infrastructure setup
+│   ├── main.py                # Central orchestrator and entry-point of the program
+│   ├── patterns.py            # Hardcoded cryptographic validation models
+│   ├── report.py              # Export handlers for file writing sub-modules
+│   └── stats.py               # Calculation matrix engine for telemetry reporting
 │
-├── tests/
 ├── README.md
 └── LICENSE
 ```
 
-## Supported Hashes
+## 📊 Supported Algorithms
 
-| Hash Type | Length |
-| --------- | ------ |
-| MD5       | 32     |
-| SHA1      | 40     |
-| SHA224    | 56     |
-| SHA256    | 64     |
-| SHA384    | 96     |
-| SHA512    | 128    |
-
-## Installation
-
-Clone repository:
-
-```bash
-git clone https://github.com/pagarkristian/hash-identifier.git
-cd hash-identifier
-```
-
-Run:
-
-```bash
-python3 -m src.main
-```
-
-## Usage
-
-### Single Hash Scan
-
-```text
-1. Single Hash Scan
-2. Batch Scan From File
-```
-
-Example:
-
-```text
-Enter Hash:
-5f4dcc3b5aa765d61d8327deb882cf99
-```
-
-Output:
-
-```text
-Hash Type: MD5
-Description: Message Digest Algorithm 5
-Confidence: Medium
-```
-
-### Batch Scan
-
-File:
-
-```text
-examples/hashes.txt
-```
-
-Example:
-
-```text
-5f4dcc3b5aa765d61d8327deb882cf99
-55ab0f70a169b59663da671f5581298491bbec81640fa889241517a6c6ec22fc
-```
-
-Output:
-
-```text
-[1] MD5 (32 chars)
-[2] SHA256 (64 chars)
-```
-
-## Reports
-
-TXT Report:
-
-```text
-reports/report.txt
-```
-
-JSON Report:
-
-```text
-reports/report.json
-```
-
-## Logs
-
-Scan activity is stored in:
-
-```text
-logs/hash_identifier.log
-```
-
-## Statistics
-
-Display scan statistics using the statistics module.
-
-## Roadmap
-
-### Version 1.1
-
-* JSON Report Export
-* Batch Hash Scan
-* Interactive Menu
-
-### Version 1.2
-
-* Color Output
-* Confidence Score
-* Better Statistics
-
-### Version 2.0
-
-* API Mode
-* Advanced Classification
-* Multi Report Formats
-
-## License
-
-MIT License
+| Cryptographic Hash | Digest Length | Character Class | Confidence Unit |
+| :--- | :---: | :---: | :--- |
+| **MD5** | `32 Chars` | Hexadecimal (`a-f, 0-9`) | ⚠️ Medium *(High collision potential)* |
+| **SHA-1** | `40 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
+| **SHA-224** | `56 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
+| **SHA-256** | `64 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
+| **SHA-384** | `96 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
+| **SHA-512** | `128 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
