@@ -61,3 +61,34 @@ hash-identifier/
 | **SHA-256** | `64 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
 | **SHA-384** | `96 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
 | **SHA-512** | `128 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
+
+
+
+## 🚀 Installation & Setup
+
+Follow these steps to get the environment ready and run the tool on your local machine.
+
+### Prerequisites
+Make sure **Git** and **Python 3** are provisioned on your current deployment environment (e.g., Kali Linux, Parrot OS, or Ubuntu/WSL).
+
+### Quick Start
+
+```markdown
+## 🚀 Installation & Setup
+```
+Ensure Git and Python are provisioned on your deployment environment (Kali Linux, Parrot OS, etc.), then execute the following commands in your terminal:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/pagarkristian/hash-identifier.git](https://github.com/pagarkristian/hash-identifier.git)
+```
+
+```bash
+# 2. Move into the project directory
+cd hash-identifier
+```
+
+# 3. Launch the tool
+```bash
+python3 hash_identifier.py
+```
