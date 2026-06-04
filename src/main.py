@@ -1,14 +1,21 @@
 from src.banner import show_banner
 from src.detector import identify_hash
 from src.report import save_report
-
+from src.logger import write_log
 
 def main():
 	show_banner()
 	user_hash = input("\nEnter Hash:")
 
 	result =  identify_hash(user_hash)
-	report_path = save_report(user_hash, result)
+	write_log(
+		user_hash,
+		result["name"]
+)
+	report_path = save_report(
+		user_hash,
+		result
+)
 
 	print("\nAnalysis Result")
 	print("=" * 50 )
@@ -19,4 +26,4 @@ def main():
 	print(f"Report File : {report_path}")
 
 if __name__ == "__main__":
-    main()
+	main()

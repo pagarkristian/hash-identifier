@@ -1,6 +1,6 @@
 HASH IDENTIFIER REPORT
 ==================================================
-Hash Value : 55ab0f70a169b59663da671f5581298491bbec81640fa889241517a6c6ec22fc
-Hash Type  : SHA256
-Description: Secure Hash Algorithm 256 
+Hash Value : 4ab0bde2ed73d09a96bbde591a42618d
+Hash Type  : MD5
+Description: Message Digest Algorithm 5 
 Confidence : Medium
