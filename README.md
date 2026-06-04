@@ -78,10 +78,6 @@ Follow these steps to get the environment ready and run the tool on your local m
 Make sure **Git** and **Python 3** are provisioned on your current deployment environment (e.g., Kali Linux, Parrot OS, or Ubuntu/WSL).
 
 ### Quick Start
-
-```markdown
-## 🚀 Installation & Setup
-```
 Ensure Git and Python are provisioned on your deployment environment (Kali Linux, Parrot OS, etc.), then execute the following commands in your terminal:
 
 ```bash
