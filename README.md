@@ -92,3 +92,37 @@ cd hash-identifier
 # 3. Launch the tool
 python3 hash_identifier.py
 ```
+
+```bash
+# 4.Launch the script directly by running:
+python3 -m src.main
+```
+
+
+💡 Usage Demonstrations
+🔹 Scenario A: Single Hash Verification
+Provide a single arbitrary hash string to the CLI evaluation parameter block:
+
+
+```Plaintext
+Enter Hash: [1;32m5f4dcc3b5aa765d61d8327deb882cf99[0m
+
+[1;34m[ Result ][0m
+--------------------------------------------------
+[1mHash Type   :[0m MD5
+[1mDescription :[0m Message Digest Algorithm 5
+[1mConfidence  :[0m Medium (Collisions Documented)
+--------------------------------------------------
+```
+
+
+🔹 Scenario B: Batch Directory Processing
+Populate your collection of multi-signature lists into examples/hashes.txt (one signature per line), and trigger Option 2 on the interactive application panel.
+
+Terminal Operational Output Example:
+
+```Plaintext
+[1;36m[1][0m MD5 (32 chars) -> [1;32mDetected successfully[0m
+[1;36m[2][0m SHA256 (64 chars) -> [1;32mDetected successfully[0m
+[1;34m[+][0m Scan compilation finalized. Reporting channels written to the [1m'reports/'[0m directory.
+```
