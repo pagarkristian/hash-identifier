@@ -278,8 +278,9 @@ Here are the visual previews of the tool in action:
 | :--- | :---: | :---: |
 | 🖥️ **Main Menu Interface** | <img src="https://github.com/user-attachments/assets/66251afa-6cd9-4ec1-98eb-457c29ef5666" width="400" alt="Main Menu"> | ✅ Available |
 | 🔍 **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/23726e38-1661-4816-9998-f4692822143d" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/989f92f2-408a-403f-b6e5-5893a24fde0a" width="300" alt="Batch Scan 2"> | ✅ Available |
+| 📄 **Report Generation** | <img width="826" height="514" alt="Screenshot 2026-06-05 004914" src="https://github.com/user-attachments/assets/fb9afdf6-4038-4b0c-9151-88b6db1f4fcd" width="400" alt="Report Output">/>
+ | ✅ Available |
 
----
 ---
 
 ## 📄 License
