@@ -1,5 +1,7 @@
 # 🛡️ Hash Identifier
 
+![Stars](https://img.shields.io/github/stars/pagarkristian/hash-identifier?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/pagarkristian/hash-identifier?style=for-the-badge)
 ![Python Version](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Category](https://img.shields.io/badge/Field-Cybersecurity-red?style=for-the-badge)
