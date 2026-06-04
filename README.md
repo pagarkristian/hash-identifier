@@ -112,7 +112,7 @@ hash-identifier/
 ```
 
 
-
+---
 
 ## 📊 Supported Algorithms
 
@@ -125,7 +125,7 @@ hash-identifier/
 | **SHA-384** | `96 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
 | **SHA-512** | `128 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
 
-
+---
 
 ## 🚀 Installation
 
@@ -157,6 +157,7 @@ python3 hash_identifier.py
 python3 -m src.main
 ```
 
+---
 
 💡 Usage
 
@@ -183,7 +184,10 @@ Terminal Operational Output Example:
 [+] Scan compilation finalized. Reporting channels written to the 'reports/' directory.
 ```
 
-## 📝 Reports & Output
+---
+
+
+## 📝 Reports
 
 The tool automatically organizes and saves scan results into dedicated formats inside the `reports/` directory:
 
