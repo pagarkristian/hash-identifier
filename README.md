@@ -276,9 +276,13 @@ This is the plan for future updates and new features that will be added to the t
 
 | Preview Type | Placeholder Path | Status |
 | :--- | :--- | :---: |
-| 🖥️ Main Menu Interface | `screenshots/main-menu.png` | ⏳ Coming Soon |
-| 🔍 Batch Scanning Mode | `screenshots/batch-scan.png` | ⏳ Coming Soon |
-| 📄 Report Generation | `screenshots/report-generation.png` | ⏳ Coming Soon |
+| 🖥️ Main Menu Interface | `<img width="871" height="356" alt="Screenshot 2026-06-05 004549" src="https://github.com/user-attachments/assets/66251afa-6cd9-4ec1-98eb-457c29ef5666" />
+` | ⏳ Coming Soon |
+| 🔍 Batch Scanning Mode | `<img width="562" height="271" alt="Screenshot 2026-06-05 004616" src="https://github.com/user-attachments/assets/989f92f2-408a-403f-b6e5-5893a24fde0a" , <img width="576" height="251" alt="Screenshot 2026-06-05 004639" src="https://github.com/user-attachments/assets/23726e38-1661-4816-9998-f4692822143d" />
+ />
+` | ⏳ Coming Soon |
+| 📄 Report Generation | `<img width="826" height="514" alt="Screenshot 2026-06-05 004914" src="https://github.com/user-attachments/assets/73f7617a-55fb-450b-856e-e2276f8880db" />
+` | ⏳ Coming Soon |
 
 ---
 
