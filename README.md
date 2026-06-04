@@ -135,7 +135,6 @@ The tool uses precise cryptographic patterns to identify hashes based on their s
 | `SHA-384` | **96** | Hexadecimal | `59a17030e41e2f3d67bc8d48ef36b539cfdf62bbf6b553c5188ef7733f545` |
 | `SHA-512` | **128** | Hexadecimal | `07e547d9586f6a73f73fbac0435ed76951218fb7d0c8d788a309d785436bbb64` |
 
----12** | `128 Chars` | Hexadecimal (`a-f, 0-9`) | ✅ High |
 
 ---
 
