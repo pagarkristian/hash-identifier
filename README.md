@@ -288,6 +288,6 @@ This project is licensed under the **MIT License**. This means you are free to u
 ## 👨‍💻 Author
 
 <div align="center">
-  <sub>Maintained by <b>pagarkristian</b>  Cybersecurity Student • Python Learner • Open Source Enthusiast.</sub>
+  <h3>Pagar Kristian Panjaitan</h3>
+  <p>Cybersecurity Student • Python Learner • Open Source Enthusiast</p>
 </div>
-
