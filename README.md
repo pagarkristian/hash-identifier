@@ -159,11 +159,6 @@ cd hash-identifier
 ```
 
 ```bash
-# 3. Launch the tool
-python3 hash_identifier.py
-```
-
-```bash
 # 4.Launch the script directly by running:
 python3 -m src.main
 ```
