@@ -10,14 +10,23 @@ This project was developed as a cybersecurity learning project to help students,
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-* 🔍 **Multi-Algorithm Signatures**: High-precision recognition for MD5, SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512.
-* 📂 **Automated Batch Processing**: Efficiently ingests, cleans, and processes bulk hash lists from a single flat text (`.txt`) file.
-* 🎨 **Polished UX/UI Design**: Features an interactive terminal experience utilizing ANSI color escape sequences and an aligned telemetry header.
-* 📊 **Telemetry & Runtime Statistics**: Aggregates comprehensive success rates, breakdown percentages, and target metrics instantly post-scan.
-* 📝 **Dual-Engine Reporting Module**: Automatically isolates and exports runtime outputs into human-readable raw text summaries and machine-parsable JSON structures.
-* 🪵 **Immutable Security Auditing**: Tracks all logical transitions and application lifecycles inside dedicated background rotation logs for historical compliance.
+Here is a detailed breakdown of the capabilities and features included in this tool:
+
+| Category | Feature | Description |
+| :--- | :--- | :--- |
+| 🔍 **Hash Detection** | MD5 | Accurately identifies 128-bit MD5 hashes. |
+| | SHA-1 | Detects 160-bit SHA-1 cryptographic hashes. |
+| | SHA-224 / SHA-256 | Validates and identifies SHA-2 family (224 and 256-bit). |
+| | SHA-384 / SHA-512 | Supports high-security SHA-2 family (384 and 512-bit). |
+| ⚙️ **Scanning Modes** | Single Hash Analysis | Quick analysis for a single hash input. |
+| | Batch Hash Scanning | Bulk scan hashes directly from uploaded `.txt` files. |
+| 📊 **Reporting** | TXT Report | Generates clean, human-readable text reports. |
+| | JSON Report | Exports structured data perfect for integration with other tools. |
+| 🪵 **Monitoring** | Activity Logging | Keeps track of all scan activities and timestamps. |
+| 💻 **User Interface** | Interactive Terminal Menu | User-friendly, keyboard-navigable CLI menu. |
+| | Colored CLI Banner | Styled with vibrant ANSI colors for a premium look. |
 
 ---
 
