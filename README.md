@@ -15,63 +15,71 @@ This project was developed as a cybersecurity learning project to help students,
 <table>
   <thead>
     <tr>
-      <th>Category</th>
-      <th>Feature</th>
-      <th>Capabilities</th>
+      <th width="25%">Category</th>
+      <th width="30%">Feature</th>
+      <th width="45%">Technical Capabilities</th>
     </tr>
   </thead>
   <tbody>
-    <!-- HASH DETECTION -->
     <tr>
-      <td rowspan="4" align="center">🕵️‍♂️ <br><b>Hash Detection</b></td>
+      <td rowspan="7" align="center">⚙️ <br><b>Core Engine</b></td>
+      <td><code>Regex Pattern Matching</code></td>
+      <td>Uses optimized regular expressions for instant and accurate hash type identification.</td>
+    </tr>
+    <tr>
       <td><code>MD5</code></td>
-      <td>Identifies standard 128-bit MD5 hashes.</td>
+      <td>Identifies 128-bit MD5 hashes.</td>
     </tr>
     <tr>
       <td><code>SHA-1</code></td>
       <td>Detects 160-bit SHA-1 cryptographic hashes.</td>
     </tr>
     <tr>
-      <td><code>SHA-224 / SHA-256</code></td>
-      <td>Validates SHA-2 family (224 and 256-bit) hashes.</td>
+      <td><code>SHA-224</code></td>
+      <td>Validates SHA-2 family 224-bit hashes.</td>
     </tr>
     <tr>
-      <td><code>SHA-384 / SHA-512</code></td>
-      <td>Supports high-security SHA-2 family (384 and 512-bit).</td>
+      <td><code>SHA-256</code></td>
+      <td>Validates SHA-2 family 256-bit hashes.</td>
     </tr>
-    <!-- SCANNING MODES -->
     <tr>
-      <td rowspan="2" align="center">⚙️ <br><b>Scanning Modes</b></td>
-      <td>Single Analysis</td>
+      <td><code>SHA-384</code></td>
+      <td>Supports high-security SHA-2 family 384-bit hashes.</td>
+    </tr>
+    <tr>
+      <td><code>SHA-512</code></td>
+      <td>Supports high-security SHA-2 family 512-bit hashes.</td>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center">🔍 <br><b>Scanning Modes</b></td>
+      <td>Single Hash Analysis</td>
       <td>Quick analysis for a single hash input via CLI.</td>
     </tr>
     <tr>
       <td>Batch Scanning</td>
-      <td>Bulk processing by importing hashes from <code>.txt</code> files.</td>
+      <td>Bulk processing by importing and parsing hashes from <code>.txt</code> files.</td>
     </tr>
-    <!-- REPORTING & LOGS -->
     <tr>
       <td rowspan="3" align="center">📊 <br><b>Data & Output</b></td>
       <td>TXT Report</td>
-      <td>Generates clean, human-readable text summaries.</td>
+      <td>Generates clean, human-readable text summaries for quick manual review.</td>
     </tr>
     <tr>
       <td>JSON Export</td>
-      <td>Exports structured data for automation or API integration.</td>
+      <td>Exports structured data for automation, logging, or SIEM integration.</td>
     </tr>
     <tr>
       <td>Activity Logging</td>
-      <td>Keeps track of all execution steps and scan history.</td>
+      <td>Keeps full track of all execution steps and scan history.</td>
     </tr>
-    <!-- UI/UX -->
     <tr>
       <td rowspan="2" align="center">💻 <br><b>User Interface</b></td>
-      <td>Interactive Menu</td>
+      <td>Interactive CLI Menu</td>
       <td>User-friendly, keyboard-navigable terminal menu.</td>
     </tr>
     <tr>
-      <td>Colored CLI Banner</td>
-      <td>Styled with vibrant ANSI colors for a premium terminal look.</td>
+      <td>Colored Terminal Banner</td>
+      <td>Styled with vibrant ANSI colors for a premium CLI look.</td>
     </tr>
   </tbody>
 </table>
