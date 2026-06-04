@@ -277,7 +277,7 @@ Here are the visual previews of the tool in action:
 | Preview Type | Screenshot | Status |
 | :--- | :---: | :---: |
 | 🖥️ **Main Menu Interface** | <img src="https://github.com/user-attachments/assets/66251afa-6cd9-4ec1-98eb-457c29ef5666" width="400" alt="Main Menu"> | ✅ Available |
-| 🔍 **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/989f92f2-408a-403f-b6e5-5893a24fde0a" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/23726e38-1661-4816-9998-f4692822143d" width="300" alt="Batch Scan 2"> | ✅ Available |
+| 🔍 **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/23726e38-1661-4816-9998-f4692822143d" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/989f92f2-408a-403f-b6e5-5893a24fde0a" width="300" alt="Batch Scan 2"> | ✅ Available |
 
 ---
 ---
