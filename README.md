@@ -12,21 +12,69 @@ This project was developed as a cybersecurity learning project to help students,
 
 ## 🚀 Features
 
-Here is a detailed breakdown of the capabilities and features included in this tool:
-
-| Category | Feature | Description |
-| :--- | :--- | :--- |
-| 🔍 **Hash Detection** | MD5 | Accurately identifies 128-bit MD5 hashes. |
-| | SHA-1 | Detects 160-bit SHA-1 cryptographic hashes. |
-| | SHA-224 / SHA-256 | Validates and identifies SHA-2 family (224 and 256-bit). |
-| | SHA-384 / SHA-512 | Supports high-security SHA-2 family (384 and 512-bit). |
-| ⚙️ **Scanning Modes** | Single Hash Analysis | Quick analysis for a single hash input. |
-| | Batch Hash Scanning | Bulk scan hashes directly from uploaded `.txt` files. |
-| 📊 **Reporting** | TXT Report | Generates clean, human-readable text reports. |
-| | JSON Report | Exports structured data perfect for integration with other tools. |
-| 🪵 **Monitoring** | Activity Logging | Keeps track of all scan activities and timestamps. |
-| 💻 **User Interface** | Interactive Terminal Menu | User-friendly, keyboard-navigable CLI menu. |
-| | Colored CLI Banner | Styled with vibrant ANSI colors for a premium look. |
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Feature</th>
+      <th>Capabilities</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- HASH DETECTION -->
+    <tr>
+      <td rowspan="4" align="center">🕵️‍♂️ <br><b>Hash Detection</b></td>
+      <td><code>MD5</code></td>
+      <td>Identifies standard 128-bit MD5 hashes.</td>
+    </tr>
+    <tr>
+      <td><code>SHA-1</code></td>
+      <td>Detects 160-bit SHA-1 cryptographic hashes.</td>
+    </tr>
+    <tr>
+      <td><code>SHA-224 / SHA-256</code></td>
+      <td>Validates SHA-2 family (224 and 256-bit) hashes.</td>
+    </tr>
+    <tr>
+      <td><code>SHA-384 / SHA-512</code></td>
+      <td>Supports high-security SHA-2 family (384 and 512-bit).</td>
+    </tr>
+    <!-- SCANNING MODES -->
+    <tr>
+      <td rowspan="2" align="center">⚙️ <br><b>Scanning Modes</b></td>
+      <td>Single Analysis</td>
+      <td>Quick analysis for a single hash input via CLI.</td>
+    </tr>
+    <tr>
+      <td>Batch Scanning</td>
+      <td>Bulk processing by importing hashes from <code>.txt</code> files.</td>
+    </tr>
+    <!-- REPORTING & LOGS -->
+    <tr>
+      <td rowspan="3" align="center">📊 <br><b>Data & Output</b></td>
+      <td>TXT Report</td>
+      <td>Generates clean, human-readable text summaries.</td>
+    </tr>
+    <tr>
+      <td>JSON Export</td>
+      <td>Exports structured data for automation or API integration.</td>
+    </tr>
+    <tr>
+      <td>Activity Logging</td>
+      <td>Keeps track of all execution steps and scan history.</td>
+    </tr>
+    <!-- UI/UX -->
+    <tr>
+      <td rowspan="2" align="center">💻 <br><b>User Interface</b></td>
+      <td>Interactive Menu</td>
+      <td>User-friendly, keyboard-navigable terminal menu.</td>
+    </tr>
+    <tr>
+      <td>Colored CLI Banner</td>
+      <td>Styled with vibrant ANSI colors for a premium terminal look.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
