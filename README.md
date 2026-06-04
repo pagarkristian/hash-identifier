@@ -28,56 +28,32 @@ hash-identifier/
 │
 ├── examples/
 │   └── hashes.txt
-│       Sample hash collection used for batch scanning demonstrations
 │
 ├── logs/
 │   └── hash_identifier.log
-│       Application execution logs and scan history records
 │
 ├── reports/
 │   ├── report.json
-│   │   Structured machine-readable analysis report
-│   │
 │   └── report.txt
-│       Human-readable scan report
+│
+├── screenshots/
 │
 ├── src/
-│   ├── __init__.py
-│   │   Package initialization file
-│   │
 │   ├── banner.py
-│   │   Terminal banner rendering and screen management
-│   │
 │   ├── batch_scan.py
-│   │   Batch processing engine for scanning multiple hashes from files
-│   │
 │   ├── detector.py
-│   │   Hash identification engine using regex pattern matching
-│   │
 │   ├── logger.py
-│   │   Audit logging and execution tracking utilities
-│   │
 │   ├── main.py
-│   │   Main application entry point and workflow controller
-│   │
 │   ├── patterns.py
-│   │   Supported hash definitions and validation patterns
-│   │
 │   ├── report.py
-│   │   TXT and JSON report generation module
-│   │
 │   └── stats.py
-│       Statistics and scan metrics processing
 │
 ├── tests/
-│   Future unit and integration tests
 │
 ├── README.md
-│   Project documentation
-│
 └── LICENSE
-    Project license information
 ```
+
 
 ```
 
