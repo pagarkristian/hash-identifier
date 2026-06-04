@@ -66,11 +66,11 @@ This project was developed as a cybersecurity learning project to help students,
     </tr>
     <tr>
       <td>JSON Export</td>
-      <td>Exports structured JSON data for easier processing and analysis..</td>
+      <td>Exports structured JSON data for easier processing and analysis.</td>
     </tr>
     <tr>
       <td>Activity Logging</td>
-      <td>Records scan history and identified hash types..</td>
+      <td>Records scan history and identified hash types.</td>
     </tr>
     <tr>
       <td rowspan="2" align="center">💻 <br><b>User Interface</b></td>
@@ -165,7 +165,7 @@ python3 -m src.main
 
 ---
 
-💡 Usage
+## 💡 Usage
 
 🔹 1: Single Hash Verification
 
@@ -221,6 +221,7 @@ Confidence : Medium
   "confidence": "Medium"
 }
 ```
+---
 
 ##  Logging
 
