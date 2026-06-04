@@ -247,7 +247,7 @@ Here is the current status of the project and the features that are already work
 
 | Version | Status | Implemented Features |
 | :---: | :---: | :--- |
-| **v1.1** | ✅ Stable | • Hash Detection Engine<br>• Batch Scan Module<br>• TXT Report Export<br>• JSON Report Export<br>• Logging System<br>• Interactive Menu<br>• Colored Banner |
+| **v1.1** | ✅ Stable | • Hash Detection Engine<br>• Batch Scan Module<br>• TXT Report Export<br>• JSON Report Export<br>• Logging System<br>• Command Line Interface<br>• Colored Banner |
 
 ---
 
