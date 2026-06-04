@@ -27,28 +27,58 @@ This project serves as an essential initial triage instrument for digital forens
 hash-identifier/
 │
 ├── examples/
-│   └── hashes.txt             # Target input sample containing bulk hash signatures
+│   └── hashes.txt
+│       Sample hash collection used for batch scanning demonstrations
 │
 ├── logs/
-│   └── hash_identifier.log    # Persistent runtime logs for application auditing
+│   └── hash_identifier.log
+│       Application execution logs and scan history records
 │
 ├── reports/
-│   ├── report.json            # Machine-readable scan output structured in JSON
-│   └── report.txt             # Well-formatted standalone text report
+│   ├── report.json
+│   │   Structured machine-readable analysis report
+│   │
+│   └── report.txt
+│       Human-readable scan report
 │
 ├── src/
 │   ├── __init__.py
-│   ├── banner.py              # Manages cross-platform screen clearing and CLI aesthetics
-│   ├── batch_scan.py          # Core workflow handling file streaming and bulk validation
-│   ├── detector.py            # Primary regex engine for signature validation
-│   ├── logger.py              # Logging engine infrastructure setup
-│   ├── main.py                # Central orchestrator and entry-point of the program
-│   ├── patterns.py            # Hardcoded cryptographic validation models
-│   ├── report.py              # Export handlers for file writing sub-modules
-│   └── stats.py               # Calculation matrix engine for telemetry reporting
+│   │   Package initialization file
+│   │
+│   ├── banner.py
+│   │   Terminal banner rendering and screen management
+│   │
+│   ├── batch_scan.py
+│   │   Batch processing engine for scanning multiple hashes from files
+│   │
+│   ├── detector.py
+│   │   Hash identification engine using regex pattern matching
+│   │
+│   ├── logger.py
+│   │   Audit logging and execution tracking utilities
+│   │
+│   ├── main.py
+│   │   Main application entry point and workflow controller
+│   │
+│   ├── patterns.py
+│   │   Supported hash definitions and validation patterns
+│   │
+│   ├── report.py
+│   │   TXT and JSON report generation module
+│   │
+│   └── stats.py
+│       Statistics and scan metrics processing
+│
+├── tests/
+│   Future unit and integration tests
 │
 ├── README.md
+│   Project documentation
+│
 └── LICENSE
+    Project license information
+```
+
 ```
 
 ## 📊 Supported Algorithms
