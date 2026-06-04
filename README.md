@@ -102,6 +102,7 @@ python3 -m src.main
 
 
 💡 Usage Demonstrations
+
 🔹 Scenario A: Single Hash Verification
 Provide a single arbitrary hash string to the CLI evaluation parameter block:
 
