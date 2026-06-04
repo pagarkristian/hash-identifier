@@ -150,7 +150,7 @@ Ensure Git and Python are provisioned on your deployment environment (Kali Linux
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/pagarkristian/hash-identifier.git](https://github.com/pagarkristian/hash-identifier.git)
+git clone https://github.com/pagarkristian/hash-identifier.git
 ```
 
 ```bash
