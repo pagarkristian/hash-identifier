@@ -66,7 +66,7 @@ This project was developed as a cybersecurity learning project to help students,
     </tr>
     <tr>
       <td>JSON Export</td>
-      <td>Exports structured data for automation, logging, or SIEM integration.</td>
+      <td>Exports structured JSON data for easier processing and analysis..</td>
     </tr>
     <tr>
       <td>Activity Logging</td>
