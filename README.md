@@ -4,13 +4,13 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Category](https://img.shields.io/badge/Field-Cybersecurity-red?style=for-the-badge)
 
-**Hash Identifier** is a lightweight, modular, and high-performance Command Line Interface (CLI) utility built in Python. It evaluates, matches, and classifies cryptographic signatures or hashes based on strict character digests, exact lengths, and structural pattern boundaries. 
+**Hash Identifier** is a Python-based Command Line Interface (CLI) tool designed to identify common cryptographic hash algorithms using pattern matching and length validation.
 
-This project serves as an essential initial triage instrument for digital forensics examiners, incident responders, and security analysts looking to identify unknown hashes during malware analysis or data auditing.
+This project was developed as a cybersecurity learning project to help students, CTF participants, and security enthusiasts quickly classify unknown hash values.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
 * 🔍 **Multi-Algorithm Signatures**: High-precision recognition for MD5, SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512.
 * 📂 **Automated Batch Processing**: Efficiently ingests, cleans, and processes bulk hash lists from a single flat text (`.txt`) file.
@@ -70,7 +70,7 @@ hash-identifier/
 
 
 
-## 🚀 Installation & Setup
+## 🚀 Installation
 
 Follow these steps to get the environment ready and run the tool on your local machine.
 
@@ -101,11 +101,9 @@ python3 -m src.main
 ```
 
 
-💡 Usage Demonstrations
+💡 Usage
 
-🔹 Scenario A: Single Hash Verification
-Provide a single arbitrary hash string to the CLI evaluation parameter block:
-
+🔹 1: Single Hash Verification
 
 ```Plaintext
 Enter Hash: 5f4dcc3b5aa765d61d8327deb882cf99
@@ -119,9 +117,7 @@ Confidence  : Medium (Collisions Documented)
 ```
 
 
-🔹 Scenario B: Batch Directory Processing
-Populate your collection of multi-signature lists into examples/hashes.txt (one signature per line), and trigger Option 2 on the interactive application panel.
-
+🔹 2: Batch Directory Processing
 Terminal Operational Output Example:
 
 ```Plaintext
