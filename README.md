@@ -258,10 +258,10 @@ Here is the current status of the project and the features that are already work
 
 This is the plan for future updates and new features that will be added to the tool:
 
-| Target Version | Status | Planned Features |
+| Target Version | Status | Planned Features & Goals |
 | :---: | :---: | :--- |
-| **v1.2** | 🟡 Up Next | • Improved Statistics Module (Better data view)<br>• Better Error Handling (Fewer crashes)<br>• Enhanced Confidence Scoring<br>• Additional Unit Tests (Code testing) |
-| **v2.0** | 🔵 Future | • Additional Hash Algorithms (More hash types)<br>• REST API Support<br>• Plugin-Based Architecture<br>• Advanced Classification System |
+| **v2.0** | 🟡 Planned | • Add SHA-3 support<br>• Improve statistics module<br>• Strengthen validation logic<br>• Improve reporting system<br>• Expand automated testing coverage |
+| **v3.0** | 🔵 Future | • Introduce REST API support<br>• Implement plugin architecture<br>• Provide Docker deployment setup<br>• Create a lightweight web interface for remote analysis |
 
 ---
 
