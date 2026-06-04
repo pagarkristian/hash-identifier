@@ -1,5 +1,4 @@
 <h1 align="center">🛡️ Hash Identifier</h1>
-
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
