@@ -287,6 +287,6 @@ This project is licensed under the **MIT License**. This means you are free to u
 ## 👨‍💻 Author
 
 <div align="center">
-  <sub>Maintained by <b>pagarkristian</b>  helpful CLI tools with Python.</sub>
+  <sub>Maintained by <b>pagarkristian</b>  Cybersecurity Student • Python Learner • Open Source Enthusiast.</sub>
 </div>
 
