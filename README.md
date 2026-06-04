@@ -200,33 +200,23 @@ Terminal Operational Output Example:
 
 ## 📝 Reports
 
-The tool automatically organizes and saves scan results into dedicated formats inside the `reports/` directory:
+After each scan, the application generates reports inside: `reports/`
 
-<table>
-  <thead>
-    <tr>
-      <th width="30%">Report Type</th>
-      <th width="40%">Default Output Path</th>
-      <th width="30%">Primary Use Case</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>📄 <b>TXT Report</b></td>
-      <td><code>reports/report.txt</code></td>
-      <td>Human-readable summary for quick manual reviews.</td>
-    </tr>
-    <tr>
-      <td>📊 <b>JSON Report</b></td>
-      <td><code>reports/report.json</code></td>
-      <td>Structured data for automation, logging, or API parsing.</td>
-    </tr>
-  </tbody>
-</table>
+###  Output Examples
 
-### 💡 Example JSON Output
+#### 1. Plaintext Report (`report.txt`)
+```text
+HASH IDENTIFIER REPORT
+==================================================
+Hash Value : 5f4dcc3b5aa765d61d8327deb882cf99
+Hash Type  : MD5
+Description: Message Digest Algorithm 5
+Confidence : Medium
+```
 
-When exporting to JSON, the data structure is strictly formatted as follows, making it easy to pipe into other penetration testing frameworks or custom scripts:
+### 💡 JSON Report
+
+`reports/report.json`
 
 ```json
 {
@@ -236,3 +226,76 @@ When exporting to JSON, the data structure is strictly formatted as follows, mak
   "confidence": "Medium"
 }
 ```
+
+## 🪵 Logging
+
+The application automatically saves your scan history so you can check your past work anytime. Everything is recorded in this file:
+
+| File Name | Location | What it does |
+| :--- | :--- | :--- |
+| 📋 **Activity Log** | `logs/hash_identifier.log` | Saves the history of all the hashes you have scanned. |
+
+---
+
+### 📝 Example Log
+
+Inside the log file, the data will look like this:
+
+```text
+[2026-06-04 21:15:30] HASH=5f4dcc3b5aa765d61d8327deb882cf99 TYPE=MD5
+[2026-06-04 21:16:02] HASH=aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d TYPE=SHA-1
+```
+
+## 📊 Current Version
+
+Here is the current status of the project and the features that are already working:
+
+| Version | Status | Implemented Features |
+| :---: | :---: | :--- |
+| **v1.1** | ✅ Stable | • Hash Detection Engine<br>• Batch Scan Module<br>• TXT Report Export<br>• JSON Report Export<br>• Logging System<br>• Interactive Menu<br>• Colored Banner |
+
+---
+
+> 💡 **Note:** All features listed above are fully tested and ready to use. More updates and new features will be added in future versions!
+
+
+## 🛣️ Project Roadmap
+
+This is the plan for future updates and new features that will be added to the tool:
+
+| Target Version | Status | Planned Features |
+| :---: | :---: | :--- |
+| **v1.2** | 🟡 Up Next | • Improved Statistics Module (Better data view)<br>• Better Error Handling (Fewer crashes)<br>• Enhanced Confidence Scoring<br>• Additional Unit Tests (Code testing) |
+| **v2.0** | 🔵 Future | • Additional Hash Algorithms (More hash types)<br>• REST API Support<br>• Plugin-Based Architecture<br>• Advanced Classification System |
+
+---
+
+## 📸 Screenshots
+
+*Screenshots and previews of the tool will be added in future releases here:*
+
+| Preview Type | Placeholder Path | Status |
+| :--- | :--- | :---: |
+| 🖥️ Main Menu Interface | `screenshots/main-menu.png` | ⏳ Coming Soon |
+| 🔍 Batch Scanning Mode | `screenshots/batch-scan.png` | ⏳ Coming Soon |
+| 📄 Report Generation | `screenshots/report-generation.png` | ⏳ Coming Soon |
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. This means you are free to use, modify, and distribute this software for personal or educational purposes.
+
+---
+
+## 👨‍💻 Author
+
+<table border="0">
+  <tr>
+    <td>
+      <h3>Pagar Kristian Panjaitan</h3>
+      <p>🚀 <b>Cybersecurity Student • Python Learner • Open Source Enthusiast</b></p>
+      <p>Focused on learning network security, cryptography, and building helpful CLI tools with Python.</p>
+    </td>
+  </tr>
+</table>
