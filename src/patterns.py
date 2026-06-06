@@ -38,34 +38,6 @@ HASH_PATTERNS = [
                 "length" : 128 ,
                 "regex" : r"^[a-fA-F0-9]{128}$",
                 "description" : "Secure Hash Alogrithm 512 "
-},
-        {
-                "name" : "SHA3-224" ,
-                "length" : 56 ,
-                "regex" : r"^[a-fA-F0-9]{56}$",
-                "description" : "Secure Hash Algorithm 3 - 224 "
-} ,
-
-        {
-                "name" : "SHA3-256" ,
-                "length" : 64 ,
-                "regex" : r"^[a-fA-F0-9]{64}$",
-                "description" : "Secure Hash Algorithm 3 - 256 "
-} ,
-
-        {
-                "name" : "SHA3-384" ,
-                "length" : 96 ,
-                "regex" : r"^[a-fA-F0-9]{96}$",
-                "description" : "Secure Hash Algorithm 3 - 384 "
-} ,
-
-        {
-                "name" : "SHA3-512" ,
-                "length" : 128 ,
-                "regex" : r"^[a-fA-F0-9]{128}$",
-                "description" : "Secure Hash Algorithm 3 - 512 "
 }
-
 
 ]
