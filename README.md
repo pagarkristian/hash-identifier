@@ -105,7 +105,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Detects empty input and handles whitespace stripping before analysis.</td>
     </tr>
     <tr>
-      <td rowspan="2" align="center">💻 <br><b>User Interface</b></td>
+      <td rowspan="2" align="center"> <br><b>User Interface</b></td>
       <td>Interactive CLI Menu</td>
       <td>User-friendly, keyboard-navigable terminal menu.</td>
     </tr>
@@ -164,7 +164,7 @@ hash-identifier/
 
 ---
 
-## 🔍 Supported Algorithms
+##  Supported Algorithms
 
 The tool uses precise cryptographic patterns to identify hashes based on their structural properties:
 
@@ -339,14 +339,14 @@ tests/test_detector.py::test_empty_string        PASSED
 tests/test_detector.py::test_whitespace_stripped PASSED
 tests/test_detector.py::test_sha3_256            PASSED
 tests/test_detector.py::test_sha3_512            PASSED
-tests/test_logger.py::test_write_log_creates_file   PASSED
-tests/test_logger.py::test_write_log_contains_hash  PASSED
-tests/test_logger.py::test_write_log_contains_type  PASSED
+tests/test_logger.py::test_write_log_creates_file    PASSED
+tests/test_logger.py::test_write_log_contains_hash   PASSED
+tests/test_logger.py::test_write_log_contains_type   PASSED
 tests/test_report.py::test_save_report_txt           PASSED
 tests/test_report.py::test_save_report_json          PASSED
 tests/test_report.py::test_save_report_has_timestamp PASSED
-tests/test_report.py::test_save_report_has_hash_length PASSED
-tests/test_report.py::test_save_report_confidence_high PASSED
+tests/test_report.py::test_save_report_has_hash_length  PASSED
+tests/test_report.py::test_save_report_confidence_high  PASSED
 tests/test_report.py::test_save_report_returns_path  PASSED
 
 23 passed in 0.04s
@@ -369,7 +369,6 @@ tests/test_report.py::test_save_report_returns_path  PASSED
 
 | Target Version | Status | Planned Features & Goals |
 | :---: | :---: | :--- |
-| **v2.0** | ✅ Complete | • SHA-3 Family Support<br>• Improve statistics module<br>• Strengthen validation logic<br>• Improve reporting system<br>• Expand automated testing coverage |
 | **v3.0** | 🔵 Future | • Introduce REST API support<br>• Implement plugin architecture<br>• Provide Docker deployment setup<br>• Create a lightweight web interface for remote analysis |
 
 ---
@@ -380,9 +379,13 @@ Here are the visual previews of the tool in action:
 
 | Preview Type | Screenshot | Status |
 | :--- | :---: | :---: |
-| 🖥️ **Main Menu Interface** | <img src="https://github.com/user-attachments/assets/66251afa-6cd9-4ec1-98eb-457c29ef5666" width="400" alt="Main Menu"> | ✅ Available |
-| 🔍 **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/23726e38-1661-4816-9998-f4692822143d" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/989f92f2-408a-403f-b6e5-5893a24fde0a" width="300" alt="Batch Scan 2"> | ✅ Available |
-| 📄 **Report Generation** | <img src="https://github.com/user-attachments/assets/fb9afdf6-4038-4b0c-9151-88b6db1f4fcd" width="400" alt="Report Output"> | ✅ Available |
+|  **Main Menu Interface** | <img src="https://github.com/user-attachments/assets/844e2862-62c5-47b8-a762-8c9ebf86b5a1" width="400" alt="Main Menu"> | ✅ Available |
+|  **Single Hash Scan** | <img src="https://github.com/user-attachments/assets/e7bbd34c-82b5-4b79-b748-719c7eaf017d" width="400" alt="Single Scan"> | ✅ Available |
+|  **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/a7762211-165d-4a7a-adfb-6397beb62bd7" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/489fbffc-ca44-4bdb-98d8-3922c4fd7bcf" width="300" alt="Batch Scan 2"> | ✅ Available |
+|  **View Statistics** | <img src="https://github.com/user-attachments/assets/b8ffd280-7b48-44cb-8829-c98c185038c7" width="400" alt="Statistics"> | ✅ Available |
+|  **Report Generation** | <img src="https://github.com/user-attachments/assets/450b9306-abb3-4f1e-8d14-7105fc804f85" width="400" alt="Report TXT"><br><br><img src="https://github.com/user-attachments/assets/18176643-07f2-4db8-8937-e02b94e60a4c" width="400" alt="Report JSON"> | ✅ Available |
+|  **Unit Testing** | <img src="https://github.com/user-attachments/assets/5182caf3-c775-4886-91d9-f0ddf51cb520" width="400" alt="Pytest"> | ✅ Available |
+|  **Activity Log** | <img src="https://github.com/user-attachments/assets/88a3026f-8b26-4ea7-acb7-91953481cbfe" width="400" alt="Log"> | ✅ Available |
 
 ---
 
@@ -392,7 +395,7 @@ This project is licensed under the **MIT License**. This means you are free to u
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 <div align="center">
   <h3>pagarkristian</h3>
