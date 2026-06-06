@@ -6,6 +6,10 @@ from src.logger import write_log
 from src.batch_scan import scan_file
 from src.stats import show_stats
 
+GREEN  = "\033[92m"
+YELLOW = "\033[93m"
+RED    = "\033[91m"
+RESET  = "\033[0m"
 
 def main():
     show_banner()
@@ -50,12 +54,22 @@ def main():
             user_hash,
             result
         )
+
         print("\nAnalysis Result")
         print("=" * 50)
         print(f"Hash Length: {len(user_hash)}")
-        print(f"Hash Type: {result['name']}")
+        print(f"Hash Type : {result['name']}")
         print(f"Description: {result['description']}")
-        print(f"Confidence: {result['confidence']}")
+
+        if result["confidence"] == "High":
+            print(f"Confidence : {GREEN}{result['confidence']}{RESET}")
+
+        elif result["confidence"] == "Medium":
+            print(f"Confidence : {YELLOW}{result['confidence']}{RESET}")
+
+        else:
+            print(f"Confidence : {RED}{result['confidence']}{RESET}")
+
         print(f"Report File : {report_path}")
 
     elif choice == "2":
