@@ -1,5 +1,6 @@
 import os
 import json
+import csv
 from datetime import datetime
 
 def save_report(hash_value, result):
@@ -50,3 +51,34 @@ def view_report():
 
     print("=" * 50)
     print(f"JSON Report : {json_path}")
+
+def save_csv(hash_value, result):
+
+    csv_path = "reports/report.csv"
+    file_exists = os.path.exists(csv_path)
+
+    with open(csv_path, "a", newline="") as csv_file:
+
+        fieldnames = [
+            "timestamp",
+            "hash_value",
+            "hash_length",
+            "hash_type",
+            "confidence"
+        ]
+
+        writer = csv.DictWriter(
+            csv_file,
+            fieldnames=fieldnames
+        )
+
+        if not file_exists:
+            writer.writeheader()
+
+        writer.writerow({
+            "timestamp" : datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "hash_value" : hash_value,
+            "hash_length" : len(hash_value),
+            "hash_type" : result["name"],
+            "confidence" : result["confidence"]
+        })

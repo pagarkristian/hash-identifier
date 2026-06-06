@@ -1,4 +1,4 @@
-from src.report import save_report, view_report
+from src.report import save_report, view_report, save_csv
 from src.banner import show_banner
 from src.detector import identify_hash
 from src.report import save_report
@@ -40,11 +40,16 @@ def main():
             result["name"]
         )
 
+
         report_path = save_report(
             user_hash,
             result
         )
 
+        save_csv(
+            user_hash,
+            result
+        )
         print("\nAnalysis Result")
         print("=" * 50)
         print(f"Hash Length: {len(user_hash)}")
