@@ -1,3 +1,4 @@
+from src.report import save_report, view_report
 from src.banner import show_banner
 from src.detector import identify_hash
 from src.report import save_report
@@ -12,6 +13,7 @@ def main():
     print("\n1. Single Hash Scan")
     print("2. Batch Scan From File")
     print("3. View Statistics")
+    print("4. View Latest Report")
 
     choice = input("\nChoose: ").strip()
 
@@ -59,9 +61,15 @@ def main():
 
         scan_file(file_path)
 
+
     elif choice == "3":
 
         show_stats()
+
+
+    elif choice == "4":
+
+        view_report()
 
     else:
 

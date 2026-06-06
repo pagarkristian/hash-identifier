@@ -32,3 +32,21 @@ def save_report(hash_value, result):
         json.dump(json_data, json_report, indent=4)
 
     return "reports/report.txt"
+
+def view_report():
+
+    txt_path = "reports/report.txt"
+    json_path = "reports/report.json"
+
+    if not os.path.exists(txt_path):
+        print("No report found.")
+        return
+
+    print("\nLatest Report")
+    print("=" * 50)
+
+    with open(txt_path, "r") as f:
+        print(f.read())
+
+    print("=" * 50)
+    print(f"JSON Report : {json_path}")
