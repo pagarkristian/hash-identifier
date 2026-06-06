@@ -1,6 +1,6 @@
 {
-    "hash_value": "5f4dcc3b5aa765d61d8327deb882cf99",
-    "hash_type": "MD5",
-    "description": "Message Digest Algorithm 5 ",
+    "hash_value": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+    "hash_type": "SHA256",
+    "description": "Secure Hash Algorithm 256 ",
     "confidence": "Medium"
 }

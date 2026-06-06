@@ -20,9 +20,9 @@ def save_report(hash_value, result):
         "hash_type" : result["name"],
         "description" : result["description"],
         "confidence" : result["confidence"]
-}
+    }
 
-    with open("reports/report.json", "w")as json_report:
-         json.dump(json_data, json_report, indent=4)
+    with open("reports/report.json", "w") as json_report:
+        json.dump(json_data, json_report, indent=4)
 
     return "reports/report.txt"

@@ -1,8 +1,7 @@
 import os
-
+import json
 
 def show_stats():
-
     log_file = "logs/hash_identifier.log"
 
     if not os.path.exists(log_file):
@@ -12,9 +11,7 @@ def show_stats():
     stats = {}
 
     with open(log_file, "r") as file:
-
         for line in file:
-
             if "TYPE=" not in line:
                 continue
 
@@ -27,6 +24,11 @@ def show_stats():
     print("\nStatistics")
     print("=" * 50)
     print(f"Total Hashes Scanned : {total}")
+    print()
 
     for hash_type, count in stats.items():
-        print(f"{hash_type:<10} : {count}")
+        percentage = (count / total) * 100
+
+        print(
+            f"{hash_type:<10} : {count} ({percentage:.2f}%)"
+        )
