@@ -369,7 +369,6 @@ tests/test_report.py::test_save_report_returns_path  PASSED
 
 | Target Version | Status | Planned Features & Goals |
 | :---: | :---: | :--- |
-| **v2.0** | ✅ Complete | • SHA-3 Family Support<br>• Improve statistics module<br>• Strengthen validation logic<br>• Improve reporting system<br>• Expand automated testing coverage |
 | **v3.0** | 🔵 Future | • Introduce REST API support<br>• Implement plugin architecture<br>• Provide Docker deployment setup<br>• Create a lightweight web interface for remote analysis |
 
 ---
