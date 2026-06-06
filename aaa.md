@@ -380,13 +380,13 @@ Here are the visual previews of the tool in action:
 
 | Preview Type | Screenshot | Status |
 | :--- | :---: | :---: |
-| 🖥️ **Main Menu Interface** | <img src="https://github.com/user-attachments/assets/844e2862-62c5-47b8-a762-8c9ebf86b5a1" width="400" alt="Main Menu"> | ✅ Available |
-| 🔍 **Single Hash Scan** | <img src="https://github.com/user-attachments/assets/e7bbd34c-82b5-4b79-b748-719c7eaf017d" width="400" alt="Single Scan"> | ✅ Available |
-| 🔍 **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/a7762211-165d-4a7a-adfb-6397beb62bd7" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/489fbffc-ca44-4bdb-98d8-3922c4fd7bcf" width="300" alt="Batch Scan 2"> | ✅ Available |
-| 📊 **View Statistics** | <img src="https://github.com/user-attachments/assets/b8ffd280-7b48-44cb-8829-c98c185038c7" width="400" alt="Statistics"> | ✅ Available |
-| 📄 **Report Generation** | <img src="https://github.com/user-attachments/assets/450b9306-abb3-4f1e-8d14-7105fc804f85" width="400" alt="Report TXT"><br><br><img src="https://github.com/user-attachments/assets/18176643-07f2-4db8-8937-e02b94e60a4c" width="400" alt="Report JSON"> | ✅ Available |
-| 🧪 **Unit Testing** | <img src="https://github.com/user-attachments/assets/5182caf3-c775-4886-91d9-f0ddf51cb520" width="400" alt="Pytest"> | ✅ Available |
-| 📋 **Activity Log** | <img src="https://github.com/user-attachments/assets/88a3026f-8b26-4ea7-acb7-91953481cbfe" width="400" alt="Log"> | ✅ Available |
+|  **Main Menu Interface** | <img src="https://github.com/user-attachments/assets/844e2862-62c5-47b8-a762-8c9ebf86b5a1" width="400" alt="Main Menu"> | ✅ Available |
+|  **Single Hash Scan** | <img src="https://github.com/user-attachments/assets/e7bbd34c-82b5-4b79-b748-719c7eaf017d" width="400" alt="Single Scan"> | ✅ Available |
+|  **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/a7762211-165d-4a7a-adfb-6397beb62bd7" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/489fbffc-ca44-4bdb-98d8-3922c4fd7bcf" width="300" alt="Batch Scan 2"> | ✅ Available |
+|  **View Statistics** | <img src="https://github.com/user-attachments/assets/b8ffd280-7b48-44cb-8829-c98c185038c7" width="400" alt="Statistics"> | ✅ Available |
+|  **Report Generation** | <img src="https://github.com/user-attachments/assets/450b9306-abb3-4f1e-8d14-7105fc804f85" width="400" alt="Report TXT"><br><br><img src="https://github.com/user-attachments/assets/18176643-07f2-4db8-8937-e02b94e60a4c" width="400" alt="Report JSON"> | ✅ Available |
+|  **Unit Testing** | <img src="https://github.com/user-attachments/assets/5182caf3-c775-4886-91d9-f0ddf51cb520" width="400" alt="Pytest"> | ✅ Available |
+|  **Activity Log** | <img src="https://github.com/user-attachments/assets/88a3026f-8b26-4ea7-acb7-91953481cbfe" width="400" alt="Log"> | ✅ Available |
 
 ---
 
