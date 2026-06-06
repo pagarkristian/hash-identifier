@@ -25,7 +25,7 @@ This project was developed as a cybersecurity learning project to help students,
   </thead>
   <tbody>
     <tr>
-      <td rowspan="11" align="center">⚙️ <br><b>Core Engine</b></td>
+      <td rowspan="11" align="center"> <br><b>Core Engine</b></td>
       <td><code>Regex Pattern Matching</code></td>
       <td>Uses optimized regular expressions for instant and accurate hash type identification.</td>
     </tr>
@@ -70,7 +70,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Identifies SHA-3 family 512-bit hashes.</td>
     </tr>
     <tr>
-      <td rowspan="2" align="center">🔍 <br><b>Scanning Modes</b></td>
+      <td rowspan="2" align="center"> <br><b>Scanning Modes</b></td>
       <td>Single Hash Analysis</td>
       <td>Quick analysis for a single hash input via CLI.</td>
     </tr>
@@ -79,7 +79,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Bulk processing by importing and parsing hashes from <code>.txt</code> files.</td>
     </tr>
     <tr>
-      <td rowspan="4" align="center">📊 <br><b>Data & Output</b></td>
+      <td rowspan="4" align="center"> <br><b>Data & Output</b></td>
       <td>TXT Report</td>
       <td>Generates clean, human-readable text summaries with timestamp and hash length.</td>
     </tr>
@@ -96,7 +96,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Displays detection rate, most common hash, confidence breakdown, and hash type distribution.</td>
     </tr>
     <tr>
-      <td rowspan="2" align="center">🧠 <br><b>Validation</b></td>
+      <td rowspan="2" align="center"> <br><b>Validation</b></td>
       <td>Dynamic Confidence Scoring 🆕</td>
       <td>Assigns <code>High</code> confidence for unique-length hashes and <code>Medium</code> for ambiguous lengths.</td>
     </tr>
@@ -114,7 +114,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Styled with vibrant ANSI colors for a premium CLI look.</td>
     </tr>
     <tr>
-      <td align="center">🧪 <br><b>Testing</b></td>
+      <td align="center"> <br><b>Testing</b></td>
       <td>Unit Test Suite 🆕</td>
       <td>23 automated tests covering detector, batch scan, logger, and report modules.</td>
     </tr>
@@ -123,7 +123,7 @@ This project was developed as a cybersecurity learning project to help students,
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 hash-identifier/
@@ -316,7 +316,7 @@ The application automatically saves your scan history so you can check your past
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 This project includes a full automated test suite using **pytest**.
 
