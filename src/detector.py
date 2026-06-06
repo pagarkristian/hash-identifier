@@ -2,6 +2,8 @@ import re
 
 from src.patterns import HASH_PATTERNS
 
+AMBIGUOUS_LENGTHS = [56, 64, 96, 128]
+
 def identify_hash(hash_string):
     hash_string =   hash_string.strip()
 
@@ -12,10 +14,15 @@ def identify_hash(hash_string):
 
         if re.fullmatch(pattern["regex"], hash_string):
 
+            if pattern["length"] in AMBIGUOUS_LENGTHS:
+                confidence = "Medium"
+            else:
+                confidence = "High"
+
             return {
                 "name" : pattern["name"],
                 "description" : pattern["description"],
-                "confidence" : "Medium"
+                "confidence" : confidence
                 }
 
     return {
