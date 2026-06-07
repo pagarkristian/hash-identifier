@@ -414,8 +414,7 @@ Here are the visual previews of the tool in action:
 
 | Preview Type | Screenshot | Status |
 | :--- | :---: | :---: |
-| 🖥️ **Main Menu Interface** | <img width="906" height="474" alt="Screenshot 2026-06-07 232618" src="https://github.com/user-attachments/assets/2dcf9aed-061d-4bb5-b5e7-e141546e0e02" width="400" alt="Menu Interface"/>
- | ✅ Available |
+| 🖥️ **Main Menu Interface** |<img src="https://github.com/user-attachments/assets/2dcf9aed-061d-4bb5-b5e7-e141546e0e02" width="400" alt="Main Menu Interface">| ✅ Available |
 | 🔐 **bcrypt Detection** | <img src="https://github.com/user-attachments/assets/6415cea8-876e-40cd-ba5d-209c4283620d" width="400" alt="bcrypt"> | ✅ Available |
 | 🔐 **SHA512crypt Detection** | <img src="https://github.com/user-attachments/assets/5881b5a7-097c-4d5d-8030-1b5b00a4412c" width="400" alt="SHA512crypt"> | ✅ Available |
 | 🔐 **Argon2 Detection** | <img src="https://github.com/user-attachments/assets/955aa5a7-f819-4c83-84e2-f6353a8cf480" width="400" alt="Argon2"> | ✅ Available |
