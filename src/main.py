@@ -1,7 +1,7 @@
 from src.history import view_history, clear_history
 from src.report import save_report, view_report, save_csv
+from src.detector import identify_hash, identify_password_hash
 from src.banner import show_banner
-from src.detector import identify_hash
 from src.logger import write_log
 from src.batch_scan import scan_file
 from src.stats import show_stats
@@ -31,7 +31,13 @@ def main():
             print("Error: Hash cannot be empty.")
             return
 
-        result = identify_hash(user_hash)
+        pw_result = identify_password_hash(user_hash)
+
+        if pw_result is not None:
+            result = pw_result
+
+        else:
+            result = identify_hash(user_hash)
 
         if result["name"] == "Unknown":
             print("\nAnalysis Result")

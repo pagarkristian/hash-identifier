@@ -1,8 +1,8 @@
 HASH IDENTIFIER REPORT
 ==================================================
-Timestamp  : 2026-06-07 01:22:56
-Hash Value : ea09ae9cc6768c50fcee903ed054556e5bfc8347907f12598aa24193
-Hash Length: 56
-Hash Type  : SHA224
-Description: Secure Hash Algorithm 224 
-Confidence : Medium
+Timestamp  : 2026-06-07 21:16:52
+Hash Value : $2b$12$KIXyZfVqJWJmPMBYMJFqOeGkmFpPHQxGQoAZWvRFdaFCRrFP9fIHi
+Hash Length: 60
+Hash Type  : bcrypt
+Description: bcrypt Password Hash 
+Confidence : High
