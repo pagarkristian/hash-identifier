@@ -1,7 +1,7 @@
+from src.history import view_history, clear_history
 from src.report import save_report, view_report, save_csv
 from src.banner import show_banner
 from src.detector import identify_hash
-from src.report import save_report
 from src.logger import write_log
 from src.batch_scan import scan_file
 from src.stats import show_stats
@@ -18,6 +18,8 @@ def main():
     print("2. Batch Scan From File")
     print("3. View Statistics")
     print("4. View Latest Report")
+    print("5. View Scan History")
+    print("6. Clear History")
 
     choice = input("\nChoose: ").strip()
 
@@ -89,6 +91,16 @@ def main():
     elif choice == "4":
 
         view_report()
+
+
+    elif choice == "5":
+
+        view_history()
+
+
+    elif choice == "6":
+
+        clear_history()
 
     else:
 
