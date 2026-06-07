@@ -421,8 +421,8 @@ Here are the visual previews of the tool in action:
 | 📄 **View Latest Report** | <img src="https://github.com/user-attachments/assets/58e0a578-1629-49d5-a220-5380118ea451" width="400" alt="Latest Report"> | ✅ Available |
 | 📋 **Scan History Viewer** | <img src="https://github.com/user-attachments/assets/1bc97ead-ec10-4efe-870d-3d5c83290635" width="400" alt="Scan History"> | ✅ Available |
 | 🔍 **Batch Scanning Mode** | <img src="https://github.com/user-attachments/assets/a7762211-165d-4a7a-adfb-6397beb62bd7" width="300" alt="Batch Scan 1"><br><br><img src="https://github.com/user-attachments/assets/489fbffc-ca44-4bdb-98d8-3922c4fd7bcf" width="300" alt="Batch Scan 2"> | ✅ Available |
-| 📊 **View Statistics** | <img src="https://github.com/user-attachments/assets/b8ffd280-7b48-44cb-8829-c98c185038c7" width="400" alt="Statistics"> | ✅ Available |
-| 🧪 **Unit Testing** | <img src="https://github.com/user-attachments/assets/5182caf3-c775-4886-91d9-f0ddf51cb520" width="400" alt="Pytest"> | ✅ Available |
+|  **View Statistics** | <img src="https://github.com/user-attachments/assets/b8ffd280-7b48-44cb-8829-c98c185038c7" width="400" alt="Statistics"> | ✅ Available |
+|  **Unit Testing** | <img src="https://github.com/user-attachments/assets/5182caf3-c775-4886-91d9-f0ddf51cb520" width="400" alt="Pytest"> | ✅ Available |
 | 📋 **Activity Log** | <img src="https://github.com/user-attachments/assets/88a3026f-8b26-4ea7-acb7-91953481cbfe" width="400" alt="Log"> | ✅ Available |
 
 ---
