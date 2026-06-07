@@ -50,12 +50,12 @@ PASSWORD_PATTERNS = [
         "regex" : r"^\$2[aby]\$\d{2}\$.{53}$",
         "description" : "bcrypt Password Hash "
 } ,
+
     {
         "name" : "SHA512crypt" ,
-        "regex" : r"^\$6\$.{1,16}\$.{86}$",
+        "regex" : r"^\$6\$.*\$[A-Za-z0-9./]{85,86}$",
         "description" : "SHA512crypt Unix Password Hash "
 } ,
-
     {
         "name" : "Argon2" ,
         "regex" : r"^\$argon2(i|d|id)\$.*",

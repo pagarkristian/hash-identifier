@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-06-07 21:16:52",
-    "hash_value": "$2b$12$KIXyZfVqJWJmPMBYMJFqOeGkmFpPHQxGQoAZWvRFdaFCRrFP9fIHi",
-    "hash_length": 60,
-    "hash_type": "bcrypt",
-    "description": "bcrypt Password Hash ",
+    "timestamp": "2026-06-07 21:28:54",
+    "hash_value": "$6$rounds=5000$usesomesillystri$D4IrlXatmP7rx3P3InaxBeoomnAihCKRVQP22JZ6EY47Wc6BkroIuUUBOov1i.S5KznITrue5LkMVJ.k5FsM.",
+    "hash_length": 117,
+    "hash_type": "SHA512crypt",
+    "description": "SHA512crypt Unix Password Hash ",
     "confidence": "High"
 }

@@ -1,8 +1,8 @@
 HASH IDENTIFIER REPORT
 ==================================================
-Timestamp  : 2026-06-07 21:16:52
-Hash Value : $2b$12$KIXyZfVqJWJmPMBYMJFqOeGkmFpPHQxGQoAZWvRFdaFCRrFP9fIHi
-Hash Length: 60
-Hash Type  : bcrypt
-Description: bcrypt Password Hash 
+Timestamp  : 2026-06-07 21:28:54
+Hash Value : $6$rounds=5000$usesomesillystri$D4IrlXatmP7rx3P3InaxBeoomnAihCKRVQP22JZ6EY47Wc6BkroIuUUBOov1i.S5KznITrue5LkMVJ.k5FsM.
+Hash Length: 117
+Hash Type  : SHA512crypt
+Description: SHA512crypt Unix Password Hash 
 Confidence : High
