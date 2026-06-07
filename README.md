@@ -25,7 +25,7 @@ This project was developed as a cybersecurity learning project to help students,
   </thead>
   <tbody>
     <tr>
-      <td rowspan="10" align="center">⚙️ <br><b>Core Engine</b></td>
+      <td rowspan="10" align="center"> <br><b>Core Engine</b></td>
       <td><code>Regex Pattern Matching</code></td>
       <td>Uses optimized regular expressions for instant and accurate hash type identification.</td>
     </tr>
@@ -66,7 +66,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Detects Argon2 password hashes ($argon2i$, $argon2d$, $argon2id$ prefix).</td>
     </tr>
     <tr>
-      <td rowspan="2" align="center">🔍 <br><b>Scanning Modes</b></td>
+      <td rowspan="2" align="center"> <br><b>Scanning Modes</b></td>
       <td>Single Hash Analysis</td>
       <td>Quick analysis for a single hash input via CLI.</td>
     </tr>
@@ -75,7 +75,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Bulk processing by importing and parsing hashes from <code>.txt</code> files.</td>
     </tr>
     <tr>
-      <td rowspan="5" align="center">📊 <br><b>Data & Output</b></td>
+      <td rowspan="5" align="center"> <br><b>Data & Output</b></td>
       <td>TXT Report</td>
       <td>Generates clean, human-readable text summaries with timestamp and hash length.</td>
     </tr>
@@ -96,7 +96,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Displays detection rate, most common hash, confidence breakdown, and hash type distribution.</td>
     </tr>
     <tr>
-      <td rowspan="2" align="center">🧠 <br><b>Validation</b></td>
+      <td rowspan="2" align="center"> <br><b>Validation</b></td>
       <td>Dynamic Confidence Scoring</td>
       <td>Assigns <code>High</code> confidence for unique-length hashes and <code>Medium</code> for ambiguous lengths.</td>
     </tr>
@@ -105,7 +105,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>Detects empty input and handles whitespace stripping before analysis.</td>
     </tr>
     <tr>
-      <td rowspan="4" align="center">💻 <br><b>User Interface</b></td>
+      <td rowspan="4" align="center"> <br><b>User Interface</b></td>
       <td>Interactive CLI Menu</td>
       <td>User-friendly, keyboard-navigable terminal menu with 6 options.</td>
     </tr>
@@ -122,7 +122,7 @@ This project was developed as a cybersecurity learning project to help students,
       <td>View and clear scan history from the CLI menu.</td>
     </tr>
     <tr>
-      <td align="center">🧪 <br><b>Testing</b></td>
+      <td align="center"> <br><b>Testing</b></td>
       <td>Unit Test Suite</td>
       <td>25 automated tests covering detector, password hash, batch scan, logger, and report modules.</td>
     </tr>
@@ -348,7 +348,7 @@ The application automatically saves your scan history so you can check your past
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 This project includes a full automated test suite using **pytest**.
 
