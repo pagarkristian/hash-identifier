@@ -14,7 +14,7 @@ def show_banner():
 |_| |_/_/   \_\____/|_| |_| |___|____/|_____|_| \_| |_| |___|_|   |___|_____|_| \_\
 """ + RESET + f"""
      {GRAY}===================================================================={RESET}
-     {GREEN}[+] Version: 1.0.0             [+] Project: Hash Identifier{RESET}
+     {GREEN}[+] Version: 2.0.0             [+] Project: Hash Identifier{RESET}
      {GREEN}[+] Scope  : Cyber Security    [+] Type   : Hash Classifier{RESET}
      {GRAY}===================================================================={RESET}
     """
