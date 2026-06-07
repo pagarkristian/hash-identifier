@@ -1,16 +1,8 @@
 {
-    "total_hashes": 32,
-    "detected": 24,
-    "unknown": 8,
-    "detection_rate": 75.0,
-    "most_common_hash": "Unknown",
-    "hash_types": {
-        "Unknown": 8,
-        "MD5": 3,
-        "SHA1": 3,
-        "SHA224": 3,
-        "SHA256": 6,
-        "SHA384": 3,
-        "SHA512": 6
-    }
+    "total_hashes": 0,
+    "detected": 0,
+    "unknown": 0,
+    "detection_rate": 0,
+    "most_common_hash": "None",
+    "hash_types": {}
 }

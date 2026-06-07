@@ -54,3 +54,31 @@ def test_whitespace_stripped():
     )
     assert result["name"] == "MD5"
 
+
+def test_bcrypt():
+    from src.detector import identify_password_hash
+    result = identify_password_hash(
+        "$2b$12$KIXyZfVqJWJmPMBYMJFqOeGkmFpPHQxGQoAZWvRFdaFCRrFP9fIHi"
+    )
+    assert result["name"] == "bcrypt"
+
+def test_sha512crypt():
+    from src.detector import identify_password_hash
+    result = identify_password_hash(
+        "$6$rounds=5000$usesomesillystri$D4IrlXatmP7rx3P3InaxBeoomnAihCKRVQP22JZ6EY47Wc6BkroIuUUBOov1i.S5KznITrue5LkMVJ.k5FsM."
+    )
+    assert result["name"] == "SHA512crypt"
+
+def test_argon2():
+    from src.detector import identify_password_hash
+    result = identify_password_hash(
+        "$argon2id$v=19$m=65536,t=2,p=1$c29tZXNhbHQ$RdescudvJCsgt3ub+b+dWRWJTmaaJObG"
+    )
+    assert result["name"] == "Argon2"
+
+def test_password_hash_returns_none_for_md5():
+    from src.detector import identify_password_hash
+    result = identify_password_hash(
+        "5f4dcc3b5aa765d61d8327deb882cf99"
+    )
+    assert result is None

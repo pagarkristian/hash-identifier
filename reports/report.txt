@@ -1,8 +1,8 @@
 HASH IDENTIFIER REPORT
 ==================================================
-Timestamp  : 2026-06-07 21:28:54
-Hash Value : $6$rounds=5000$usesomesillystri$D4IrlXatmP7rx3P3InaxBeoomnAihCKRVQP22JZ6EY47Wc6BkroIuUUBOov1i.S5KznITrue5LkMVJ.k5FsM.
-Hash Length: 117
-Hash Type  : SHA512crypt
-Description: SHA512crypt Unix Password Hash 
-Confidence : High
+Timestamp  : 2026-06-07 21:31:00
+Hash Value : 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
+Hash Length: 64
+Hash Type  : SHA256
+Description: Secure Hash Algorithm 256 
+Confidence : Medium
